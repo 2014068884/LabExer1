@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    tools:context="com.example.labexer1.MainActivity">
+
+    <TextView
+        android:id="@+id/quiz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz 1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp" />
+
+    <EditText
+        android:id="@+id/q1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:id="@+id/quiz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz 2"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="25dp" />
+
+    <EditText
+        android:id="@+id/q2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:id="@+id/seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seatworks"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp" />
+
+    <EditText
+        android:id="@+id/sws"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:id="@+id/lab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab Exercises"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="25dp" />
+
+    <EditText
+        android:id="@+id/le"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:id="@+id/exam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Major Exams"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="25dp" />
+
+    <EditText
+        android:id="@+id/me"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="150dp"/>
+
+    <Button
+        android:id="@+id/compute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compute"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="150dp"
+        android:onClick="computeRA"/>
+
+</RelativeLayout>
